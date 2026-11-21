@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#faf9f5"><meta name="description" content="Move an electrode array around an atrial ring and see when focal activation and re-entry give different arrival times. Explore the study and supplementary results.">
+<title>Atrial Mapping — Spatial limits of atrial mapping</title>
+<link rel="icon" href="assets/mark.svg"><link rel="stylesheet" href="site.css"><link rel="stylesheet" href="explorer.css"><link rel="stylesheet" href="findings.css">
+<script src="explorer.js" defer></script><script src="findings.js" defer></script>
+</head><body>
+<a class="skip" href="#main">Skip to study</a>
+<svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="book" viewBox="0 0 24 24"><path d="M3 4.5c4-.9 6.6-.4 9 1.25 2.4-1.65 5-2.15 9-1.25v14c-3.5-.8-6.6-.3-9 1.4-2.4-1.7-5.5-2.2-9-1.4zm9 1.25V20"/></symbol>
+<symbol id="sliders" viewBox="0 0 24 24"><path d="M4 7h5m5 0h6M4 17h9m5 0h2"/><circle cx="11.5" cy="7" r="2.4"/><circle cx="15.5" cy="17" r="2.4"/></symbol>
+<symbol id="file" viewBox="0 0 24 24"><path d="M5 3h9l5 5v13H5zm9 0v6h5M8 13h8m-8 4h6"/></symbol>
+<symbol id="download" viewBox="0 0 24 24"><path d="M12 3v11m-4-4 4 4 4-4M4 16v4h16v-4"/></symbol>
+</defs></svg>
+<header class="top"><div class="wrap bar"><a class="brand" href="#main"><img src="assets/mark.svg" alt="" width="33" height="33">Atrial Mapping</a><nav aria-label="Study navigation"><a href="#explorer">Explorer</a><a href="#findings">Findings</a><a href="#supplement">Supplement</a></nav><a class="paperlink" href="#files"><svg class="ico"><use href="#book"/></svg>Study files</a></div></header>
+<main id="main">
+<section class="hero wrap" aria-labelledby="study-title"><div class="hero-copy"><div class="kicker"><span></span>Cardiac electrophysiology</div><h1 id="study-title">Spatial limits of<br><em>atrial mapping.</em></h1>
+<p class="hero-dek">A focal source and a circulating wave can look identical along a short stretch of atrial tissue. Where the electrodes sit determines when their timing patterns diverge.</p>
+<div class="actions"><a class="action primary" href="#explorer"><svg class="ico"><use href="#sliders"/></svg>Explore the model</a><a class="action secondary-action" href="files/Manuscript.pdf"><svg class="ico"><use href="#file"/></svg>Read the paper</a></div>
+</div><figure class="atlas"><div class="artgrid" aria-hidden="true"></div>
+<svg class="guide" viewBox="0 0 500 400" aria-hidden="true"><g fill="none" stroke="currentColor"><circle cx="250" cy="195" r="144"/><circle cx="250" cy="195" r="182" stroke-dasharray="2 7"/><path d="M58 195h22m340 0h22M250 5v15m0 350v15"/></g></svg>
+<img class="heart" src="assets/heart.webp" alt="Anatomical illustration of the human heart viewed from the front." width="310" height="385">
+<svg class="pointer" viewBox="0 0 500 400" aria-hidden="true"><path d="M190 168h-72l-15 -12H26" fill="none" stroke="currentColor"/><circle cx="190" cy="168" r="3.4" fill="currentColor"/></svg>
+<span class="at-label">Right atrium</span><figcaption>Anterior view <span> / </span> Human heart</figcaption>
+</figure></section>
+<div class="metrics-outer"><div class="wrap metrics"><div><strong>75<span>%</span></strong><p>Ideal accuracy ceiling<small>Quarter-ring coverage</small></p></div><div><strong>2,880</strong><p>Simulated runs<small>Across nine conditions</small></p></div><div><strong>5</strong><p>Participants with atrial fibrillation<small>20 right-atrial placements</small></p></div></div></div>
+<section id="explorer" class="wrap section" aria-labelledby="explore-title"><div class="sect-eyebrow"><span class="tiny-line"></span>Interactive model</div><h2 id="explore-title">Move the electrodes.</h2><p class="intro">Compare the same eight electrodes along one arm of a wave and across a collision. Move the array to see what changes.</p><div id="ring-explorer"></div></section>
+<section id="findings" class="results-section"><div class="wrap section"><div class="sect-eyebrow"><span class="tiny-line"></span>Study results</div><h2>What the maps revealed.</h2><div id="study-findings"></div></div></section>
+<section id="supplement" class="wrap section"><div class="sect-eyebrow"><span class="tiny-line"></span>Online supplement</div><h2>How robust are the results?</h2><p class="intro">Three sensitivity analyses examine uncertainty in conduction speed, phase noise and electrogram preprocessing.</p><div id="study-supplement"></div></section>
+<section id="files" class="files"><div class="wrap file-layout"><div><div class="sect-eyebrow light"><span class="tiny-line"></span>Study files</div><h2>Read the study.</h2><p class="actual-title">Spatial limits of atrial mapping for distinguishing focal activation from reentry</p><p class="byline">Andrej Novak, Nikola Pavlović, Sime Manola and Ivan Zeljkovic</p></div><div class="filelist">
+<a href="files/Manuscript.pdf"><svg class="ico"><use href="#file"/></svg><span>Manuscript</span><small>PDF</small></a>
+<a href="files/Supplement.pdf"><svg class="ico"><use href="#book"/></svg><span>Supplementary methods</span><small>PDF</small></a>
+</div></div></section>
+</main><footer class="wrap footer"><a href="#main" class="footbrand">Atrial Mapping</a><p id="art-credit">Heart engraving digitized by <a href="https://www.publicdomainpictures.net/en/view-image.php?image=130365&amp;picture=human-heart">Dawn Hudson</a> · Public domain.</p><a class="back" href="#main">Back to top</a></footer>
+</body></html>
